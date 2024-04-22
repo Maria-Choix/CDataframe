@@ -17,8 +17,12 @@ fonctions utiles qui permettent l'alimentation, laffichage, les opérations usue
 Ainsi la bibliothèque fournit des fonctions pour initialiser et libérer la mémoire des colonnes et des dataframes, pour
 ajouter des colonnes à un dataframe, pour accéder aux données d'une colonne à une position donnée, et pour imprimer le
 contenu d'un dataframe.
-Pour la répartition des tâches pour ce projet, nous avons décidé de confier à une première personne,Maria, la tâche de réaliser les fonctions du fichier column.h ainsi que le main, puis à la seconde, Gautier, de réaliser les fonctions du fichiers dataframe.h après que les premières aient été réalisées (car ces fonctions ont besoins de celles de la gestion d'une colonne). Nous nous sommes échangés les codes via Discord pour en discuter si un de nous deux rencontrait un problème.
+Pour la répartition des tâches du projet, nous avons décidé de confier à une première personne, Maria, la tâche de 
+réaliser les fonctions du fichier column.h ainsi que le main, puis à la seconde, Gautier, de réaliser les fonctions du 
+fichiers dataframe.h après que les premières aient été réalisées (car ces fonctions ont besoins de celles de la gestion 
+d'une colonne). Nous nous sommes échangés les codes via Discord pour en discuter si un de nous deux rencontrait un 
+problème. De plus nous avons décidé de mettre autant de commentaires que possible afin que nous comprenions les usages
+et rôles des fonctions.
 Dans le fichier main, on a un exemple de scénario d'utilisation des fonctions prévues, qui montre d'abord comment créer
 des colonnes (de taille 5 pour l'exemple soit 5 éléments pouvant être incrémentés), ajouter des valeurs (10 et 11 pour
-l'exemple), accéder aux données d'une colonne à toutes positions et enfin supprimer une colonne. 
-
+l'exemple), accéder aux données d'une colonne à toutes positions et enfin supprimer une colonne.
