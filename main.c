@@ -1,3 +1,6 @@
+//Projet SDD1: un Cdataframe
+//Auteurs: Maria Choix et Gautier Anagnostides
+
 #include <stdio.h>
 #include "column.h"
 #include "cdataframe.h"
